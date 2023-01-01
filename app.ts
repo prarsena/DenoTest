@@ -3,7 +3,7 @@ import express from "npm:express@4.18.2";
 const app: express = express();
 
 app.get("/", (req: any, res: any) => {
-  res.send("Welcome to the Dinosaur API!");
+  res.send("Welcome to the Deno API!");
 });
 
 app.get('*', (req: any, res: any) => {
